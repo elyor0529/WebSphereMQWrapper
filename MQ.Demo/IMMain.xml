@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info_Main>
+  <Info_Date>2018-03-16</Info_Date>
+  <ExchangeData>
+    <ExchangeData_ID>181187438d2b41d56c73063f2d5d5a77</ExchangeData_ID>
+    <Consignee>
+      <INN>454266577</INN>
+    </Consignee>
+    <Bargaining>
+      <Contract_Code>4407109300</Contract_Code>
+      <Name>1)Лесоматериалы хвойных пород, обрезные из сосны обыкновенной (Pinus sylvestris L), распиленные вдоль, нестроганные, не шлифованные, необтесанные. ГОСТ 8486-86. 1-3 сорт. Влажность 38%. Размеры: длина 4,05 м., толщина 35 мм., ширина 91-188 мм. Объем без припусков - 89,581 м3., объем с припусками - 102,99 м3. - вес: 62650 кг, кол. 102,99 м3, ; 2)26 мест в пакетах;</Name>
+      <UnitQuantity>62650.0</UnitQuantity>
+      <QuantityForSale>102.99</QuantityForSale>
+      <QuantitySales>0.0</QuantitySales>
+      <QuantityAnnul>0.0</QuantityAnnul>
+    </Bargaining>
+  </ExchangeData>
+  <ExchangeData>
+    <ExchangeData_ID>181187438d2b41d56c73063f2d5d5a77</ExchangeData_ID>
+    <Consignee>
+      <INN>454266577</INN>
+    </Consignee>
+    <Bargaining>
+      <Contract_Code>4407109300</Contract_Code>
+      <Name>1)Лесоматериалы хвойных пород, обрезные из сосны обыкновенной (Pinus sylvestris L), распиленные вдоль, нестроганные, не шлифованные, необтесанные. ГОСТ 8486-86. 1-3 сорт. Влажность 38%. Размеры: длина 4,05 м., толщина 35 мм., ширина 91-188 мм. Объем без припусков - 89,581 м3., объем с припусками - 102,99 м3. - вес: 62650 кг, кол. 102,99 м3, ; 2)26 мест в пакетах;</Name>
+      <UnitQuantity>62650.0</UnitQuantity>
+      <QuantityForSale>102.99</QuantityForSale>
+      <QuantitySales>0.0</QuantitySales>
+      <QuantityAnnul>0.0</QuantityAnnul>
+    </Bargaining>
+  </ExchangeData>
+</Info_Main>

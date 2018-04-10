@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Result>
+  <Info_Result_Date>2018-04-06 11:21:52</Info_Result_Date>
+  <Result_ImportData>
+	<ID>40288f0a6295492a016295ba2100323d</ID>
+	<Receive_time>2018-04-06 11:00:52</Receive_time>
+    <DocNumber>0012372</DocNumber>
+    <CustCode>27019</CustCode>
+    <DocDate>2017-09-07</DocDate>
+	<Error></Error>
+  </Result_ImportData>
+  <Result_ImportData>
+	<ID></ID>
+	<Receive_time></Receive_time>
+    <DocNumber>0012369</DocNumber>
+    <CustCode>27001</CustCode>
+    <DocDate>2017-09-06</DocDate>
+	<Error>xato maydon nomi</Error>
+  </Result_ImportData>
+  <Result_ImportData>
+	<ID>40288f0a6295492a016295b9954a3238</ID>
+	<Receive_time>2018-04-06 11:01:01</Receive_time>
+    <DocNumber>0012370</DocNumber>
+    <CustCode>27019</CustCode>
+    <DocDate>2017-09-07</DocDate>
+	<Error></Error>
+  </Result_ImportData>
+  <Result_ImportData>
+	<ID></ID>
+	<Receive_time></Receive_time>
+    <DocNumber>0012368</DocNumber>
+    <CustCode>27020</CustCode>
+    <DocDate>2017-09-05</DocDate>
+	<Error>xato maydon nomi</Error>
+  </Result_ImportData>
+</Result>
+
