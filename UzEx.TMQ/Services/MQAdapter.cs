@@ -80,9 +80,7 @@ namespace UzEx.TMQ.Services
             {
                 _queueManager = new MQQueueManager(_queueManagerName, _channelName, _connectionName);
 
-                ResultMessage = "Connected Successfully";
-                _queueManager.Disconnect();
-
+                ResultMessage = "Connected Successfully";  
                 IsSuccess = true;
             }
             catch (Exception exp)
@@ -153,8 +151,7 @@ namespace UzEx.TMQ.Services
                     Format = MQC.MQFMT_STRING
                 };
                 _queueGetMessageOptions = new MQGetMessageOptions();
-                _queue.Get(_queueMessage, _queueGetMessageOptions);
-
+                _queue.Get(_queueMessage, _queueGetMessageOptions); 
                 _message = _queueMessage.ReadString(_queueMessage.MessageLength);
 
                 ResultMessage = MQHelper.Decode(_message);
