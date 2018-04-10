@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UzEx.TMQ.Models
-{
-
-    /// <remarks/>
+/// <remarks/>
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false,ElementName = "Info_Main")] 
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false, ElementName = "Info_Main")]
     public partial class SE_Info_Main
     {
 
@@ -51,14 +42,14 @@ namespace UzEx.TMQ.Models
     public partial class Info_MainExchangeData
     {
 
-        private string exchangeData_IDField;
+        private uint exchangeData_IDField;
 
         private Info_MainExchangeDataConsignee consigneeField;
 
-        private Info_MainExchangeDataBargaining bargainingField;
+        private Info_MainExchangeDataBargaining[] bargainingField;
 
         /// <remarks/>
-        public string ExchangeData_ID
+        public uint ExchangeData_ID
         {
             get
             {
@@ -84,7 +75,8 @@ namespace UzEx.TMQ.Models
         }
 
         /// <remarks/>
-        public Info_MainExchangeDataBargaining Bargaining
+        [System.Xml.Serialization.XmlElementAttribute("Bargaining")]
+        public Info_MainExchangeDataBargaining[] Bargaining
         {
             get
             {
@@ -123,20 +115,20 @@ namespace UzEx.TMQ.Models
     public partial class Info_MainExchangeDataBargaining
     {
 
-        private ulong contract_CodeField;
+        private string contract_CodeField;
 
         private string nameField;
 
-        private decimal unitQuantityField;
+        private string unitQuantityField;
 
         private decimal quantityForSaleField;
 
-        private decimal quantitySalesField;
+        private decimal quantitySaleSField;
 
         private decimal quantityAnnulField;
 
         /// <remarks/>
-        public ulong Contract_Code
+        public string Contract_Code
         {
             get
             {
@@ -162,7 +154,7 @@ namespace UzEx.TMQ.Models
         }
 
         /// <remarks/>
-        public decimal UnitQuantity
+        public string UnitQuantity
         {
             get
             {
@@ -188,15 +180,15 @@ namespace UzEx.TMQ.Models
         }
 
         /// <remarks/>
-        public decimal QuantitySales
+        public decimal QuantitySaleS
         {
             get
             {
-                return this.quantitySalesField;
+                return this.quantitySaleSField;
             }
             set
             {
-                this.quantitySalesField = value;
+                this.quantitySaleSField = value;
             }
         }
 
@@ -214,4 +206,3 @@ namespace UzEx.TMQ.Models
         }
     }
      
-}
