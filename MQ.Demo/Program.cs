@@ -14,7 +14,7 @@ namespace MQ.Demo
     {
         private static void Main(string[] args)
         {
-            var xml = File.ReadAllText("IMMain.xml", Encoding.UTF8);
+            var xml = File.ReadAllText("file.dat", Encoding.UTF8);
             var uzex = IOHelper.XmlDecode<SE_Info_Main>(xml);
 
             using (var mq = new TUzExRepository())
